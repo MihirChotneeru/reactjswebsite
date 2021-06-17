@@ -1,0 +1,18 @@
+.container-3{
+    border: 3px solid cadetblue;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-rps{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 2px solid black;
+    padding: 30px;
+   
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgb(15, 15, 15);
+}

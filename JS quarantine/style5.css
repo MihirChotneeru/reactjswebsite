@@ -1,0 +1,54 @@
+.container-5{
+    background-color: rgb(192, 243, 215);
+    border: 2px solid rgb(77, 42, 42);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-bj-row1 , .flex-bj-row3 {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;  
+}
+.flex-bj-row2{
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+
+} 
+.flex-bj-row1 , .flex-bj-row2{
+    background: url('https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') center;
+} 
+.flex-bj-row3 {
+    background: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+}
+
+
+.flex-bj-row1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 450px;
+} 
+.flex-bj-row1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-bj-row2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-bj-row2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+table th, td{
+    padding: 5px;
+    border: 2px solid black;
+}

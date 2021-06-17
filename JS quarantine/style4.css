@@ -1,0 +1,15 @@
+.container-4{
+    border: 3px solid rgb(240, 100, 100);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-color{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 2px solid black;
+    padding: 30px;
+   
+}

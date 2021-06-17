@@ -1,0 +1,36 @@
+.container-1{
+    border: 3px solid black;
+    margin: 0 auto;
+    width: 75%;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-box-container-1{
+    display: flex;
+    border: 2px solid olive;
+    padding: 15px;
+    justify-content:center;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 20px;
+    border: 2px solid slateblue;
+    align-items: flex-end;
+}
+
+.container-2{
+    border: 3px solid black;
+    margin: 0 auto;
+    width: 75%;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-box-container-2{
+    display: flex;
+    border: 2px solid olive;
+    padding: 15px;
+    justify-content:center;
+}
