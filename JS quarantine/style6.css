@@ -3,7 +3,7 @@
     background-color: rgb(247, 168, 168);
     border: 3px solid black;
     text-align: center;
-    margin: 31px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     justify-content: space-around;
     padding: 5px;
 }
@@ -71,34 +71,34 @@
     padding: 0;
 }
 .navbar{
-    display: flex;
     justify-content: space-around;
     background-color: rgb(78, 77, 77);
     font-family: 'Josefin Sans', sans-serif;
-    padding: 15px 0px 0px 0px;
+    align-items: center;
+    padding: 10px 0px 5px 0px;
 }
-.nav-links{
+.navbar-nav{
     float: left;
     display: flex;
     justify-content: space-around;
     width: 40%;
 }
-.nav-links a{
+.navbar-nav a{
     color: rgb(192, 156, 109);
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 14px;
 }
-.nav-links a:hover{
+.navbar-nav a:hover{
     color: rgb(248, 245, 245);
 }
-.nav-links li{
+.navbar-nav li{
     list-style: none;
 }
 .container-7{
     width: 100%;
-    margin: 55px 0px 0px 0px;
+    margin: 39px 0px 0px 0px;
     background-color: rgb(159, 181, 252);
     border: 2px solid bisque;
     padding: 0px 0px 10px 0px;
