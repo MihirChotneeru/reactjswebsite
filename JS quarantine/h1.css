@@ -1,0 +1,83 @@
+
+.col-sm-12{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: min-content
+    align-items: center;
+    justify-content: center;
+}
+.col-sm-12::before{
+    content: "";
+    background-image: url("1060795.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    bottom: -20px;
+    left: -30px;
+    opacity: 0.6;
+}
+h1,h5{
+    padding: 10px 0px 5px 0px;
+    color: rgb(2, 2, 2);
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    opacity: 1;
+}
+#a{
+    color: bisque;
+}
+#socialmedia_1{
+    position: absolute;
+    transition: 0.3s;
+    height: max-content;
+    left: -327px;
+    nav-left: auto;
+    font-size: 20px;
+    padding: 10px;
+    color:white;
+    bottom: 0px;
+}
+#socialmedia_1:hover{
+    left: 0;
+}
+#Facebook , #Instagram , #Discord{
+    background-color: rgb(108, 108, 235);
+    color:white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+/*#Instagram{
+
+    background-color: #ee2933;
+    background-position: left;
+    padding: 15px;
+    text-align: center;
+    color:rgb(13, 13, 14);
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+
+}
+#Discord{
+    background-color: #738ADB;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 2px;
+}*/
+.img{
+    padding: 5px;
+}
+#nav1{
+    position:sticky ;
+    color:white;
+    text-align-last: right;
+}
